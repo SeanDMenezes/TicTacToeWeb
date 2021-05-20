@@ -1,0 +1,40 @@
+.gameTitle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    text-align: center;
+}
+
+.joinID {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: green;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.back {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+    margin-top: 30px;
+    position: absolute;
+    font-size: x-large;
+    margin-left: 40px;
+
+    &:hover {
+        color: rgb(3, 3, 184);
+    }
+}
+
+.turnText {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.turnButton {
+    width: auto;
+}

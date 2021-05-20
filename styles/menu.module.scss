@@ -1,0 +1,58 @@
+.gameTitle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    text-align: center;
+}
+
+.inputName {
+    padding: 5px;
+    border-radius: 10px;
+    border-color: aqua;
+
+    &:focus {
+        outline: none;
+    }
+}
+
+.inputNameContainer {
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+}
+
+.inputCodeContainer {
+    display: flex;
+    align-items: flex-end;
+}
+
+.inputCode {
+    margin-left: auto;
+    margin-right: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    border-color: aqua;
+
+    &:focus {
+        outline: none;
+    }
+}
+
+.startButton {
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 45px;
+    width: 10%;
+    display: table;
+}
+
+.joinButton {
+    border-radius: 10px;
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.fieldError {
+    font-size: 13px;
+    color: red;
+}
