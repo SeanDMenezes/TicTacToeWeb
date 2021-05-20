@@ -48,6 +48,8 @@ const Menu = () => {
     }
 
     useEffect(() => {
+        console.log(process.env.REACT_APP_API_ENDPOINT);
+
         socket.on("playerJoined", (game) => {
             if (game) {
                 if (!game.error) {
